@@ -34,3 +34,7 @@ Output resumes use LaTeX. Compile with:
 ```bash
 pdflatex output/resume.tex
 ```
+
+## Design Decisions
+
+- **Terminology**: CV database uses precise, verbose language (e.g., "Revenue Cycle Management (RCM)"). The resume-generate skill adapts terminology to match job posting language. If this becomes unwieldy, consider adding a `terminology` section to map concepts to aliases.

@@ -2,6 +2,12 @@
 # This file contains all experience, skills, and education
 # Used as source material for generating tailored resumes
 
+_metadata:
+  parsed_resumes: []
+  # Example entry:
+  # - file: "resume-2023-google.md"
+  #   date: "2025-01-15"
+
 contact:
   name: ""
   email: ""
@@ -52,3 +58,23 @@ certifications: []
 # - name: AWS Solutions Architect
 #   issuer: Amazon Web Services
 #   date: "2023"
+
+publications: []
+# Example entry:
+# - title: "Paper Title"
+#   venue: "Conference/Journal Name"
+#   date: "2023"
+#   url: ""
+#   authors: []
+
+patents: []
+# Example entry:
+# - title: "Patent Title"
+#   number: "US1234567"
+#   date: "2023"
+#   status: granted  # or pending
+
+miscellaneous: []
+# Example entry:
+# - category: "Languages"
+#   items: ["English (native)", "Spanish (conversational)"]

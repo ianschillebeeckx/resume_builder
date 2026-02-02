@@ -1,0 +1,71 @@
+[Ian Schillebeeckx](https://www.linkedin.com/in/ian-schillebeeckx-5b87792a?trk=nav_responsive_tab_profile)		[ianschillebeeckx@gmail.com](mailto:ianschillebeeckx@gmail.com)		636.667.7425
+
+**Director of Product							Dec 2017 \- July 2023**		  
+*Cofactor Genomics, Inc*						*San Francisco, CA*
+
+* Primary decision-maker of all product & technical considerations of 3 machine learning based pharmaceutical assays in a regulated environment:  
+  * Research IVD test 1 had $1M in sales before sunsetting at COVID pivot  
+  * Research LDT test 2 was launched with a 40% cold click rate from ideation in 12 months before sunsetting with COVID pivot  
+  * Clinical LDT test 3 made through 2nd clinical validation  
+* Led Product Development:  
+  * Defined 3/1 year roadmaps and company wide OKRs every quarter  
+  * Designed and monitored KPIs for machine learning and product performances  
+  * Established value proposition by interviewing 30+ end users and key opinion leaders  
+  * Wrote reqs and user stories for 2 [web portal](https://tcsp.cofactorgenomics.com/#/)s and launched in 4 weeks with 1 SWE  
+  * Monitored competitors and created our regulatory strategies from their precedent  
+  * managed and shipped dozens of backend and frontend versions of software  
+* Led Machine Learning research and tech stack development with 2 reports:  
+  * learning from 1000s x 100s tables to predict response to 5 cancers  
+  * 1st author on ML based [biomarker *Nature* paper](https://www.nature.com/articles/s41598-022-05474-7) ([2nd most downloaded](https://www.nature.com/collections/ciijehjfha/?) in 2022\)  
+  * authored 3 Artificial Intelligence based patents and managed IP portfolio  
+  * used AWS SageMaker to manage ML models and version training data  
+  * architected AWS Batch pipeline, resulting in \+200% speed and \-25% cost  
+* Directly managed biomarker team of 10 wet and dry lab scientists and coordinated external lawyers, reagent vendors, CMO, and statistics/regulatory consultants
+
+**Founder, CEO								Aug 2016 \- Dec. 2017**  
+*Where4Care*								*St. Louis, MO*  
+Led team of 3 founders to launch a sms-based, Artificial Intelligence chatbot that recommends to patients where they should go to seek healthcare (e.g ER or Urgent Care)
+
+**Entrepreneur in Residence						Aug 2016 – May 2017**  
+*Sling Health STL*								*St. Louis, MO*  
+Led 4 teams of MD, PhD, MBA, and undergraduate university students in 4 simultaneous projects to create medtech commercial solutions for clinical problems
+
+**Vice President, President and CEO					June 2014 – Jan 2016**	  
+*Sling Health STL								St. Louis, MO*
+
+* Mentored 50+ clinical projects through problem definition, ideation, prototype, and launch  
+* Led non-profit organization of 15+ volunteers across medical, business, and undergraduate schools that enabled 130+ students/year to solve clinical problems
+
+**PhD in Computer Vision						Aug 2012 – Aug 2016**	  
+*Washington University in St. Louis					St. Louis, MO*  
+Fastest graduation in dept history. [Geometric Inference with Microlens Arrays](https://openscholarship.wustl.edu/eng_etds/192/). Created and characterized physical (fiducial) markers and software algorithms for camera calibration and pose estimation, resulting in 4 publications at high-impact conferences (CVPR).
+
+**PhD Computer Science**						**Aug 2012 – Aug 2016**  
+Washington University in St. Louis  
+**BS Computer Science, BS Applied Mathematics		Aug 2007 – May 2011**  
+Saint Louis University
+
+**Publications**   
+[Multidimensional biomarkers predicts ... response … in HNSCC](https://link.springer.com/article/10.1007/s00432-023-05205-z)			JCRCO 2023  
+[T Cell Subtype Profiling ... Predicts anti-PD-1 Response](https://www.nature.com/articles/s41598-022-05474-7)				Nature SR 2022  
+[Analytical Performance of an Immunoprofiling Assay Based on RNA Models](https://www.sciencedirect.com/science/article/pii/S1525157820300167)	JMD 2020  
+[Pose Hashing with Microlens Arrays](https://link.springer.com/chapter/10.1007/978-3-319-46487-9_37)							ECCV 2016  
+[Single Image Camera Calibration … for Augmented Reality](https://www.computer.org/csdl/proceedings-article/cvpr/2016/8851d290/12OmNx0A7Bo)			CVPR 2016  
+[The Geometry of Colorful Lenticular Arrays](https://ieeexplore.ieee.org/abstract/document/7335518)						3DV 2015  
+[Structured Light Field Design for ... Rotation Estimation](https://ieeexplore.ieee.org/abstract/document/7168376)				ICCP 2015  
+[Structure from Shadow Motion](https://ieeexplore.ieee.org/abstract/document/6831802)							ICCP 2014  
+[Automated … synapse classification using … machine learning](https://www.sciencedirect.com/science/article/abs/pii/S0165027012004785)			J. Neurosci. 2013  
+	  
+**Patents**  
+Artificial Intelligence Methods to Predict Immune Response			2022, in review  
+Methods … to Determine Cellular States						2020  
+[Methods … Of Processing Complex Data Using AI and Deconvolution](https://patents.google.com/patent/US20210133592A1/en)		2020, PCT  
+[Immuno-oncology Applications Using Next Generation Sequencing](https://patents.google.com/patent/US10636512B2)		2018  
+[Camera Calibration with Lenticular Arrays](https://patents.google.com/patent/US10455138B2/en)						2016  
+	  
+**Miscellaneous**  
+Belgian/American dual citizen  
+Legal status to work in Europe and United States  
+Colloquially fluent in French, intermediate in Spanish, previous exposure to Dutch and German  
+Experience in optics, inertial measurement, PCB design, and carbon composites.
+
