@@ -1,0 +1,54 @@
+# Master CV Database
+# This file contains all experience, skills, and education
+# Used as source material for generating tailored resumes
+
+contact:
+  name: ""
+  email: ""
+  phone: ""
+  location: ""
+  linkedin: ""
+  github: ""
+
+summary: ""
+
+experience: []
+# Example entry:
+# - company: Acme Corp
+#   title: Senior Engineer
+#   dates: "2020-2023"
+#   location: San Francisco, CA
+#   bullets:
+#     - Led team of 5 engineers on platform rewrite
+#     - Reduced deployment time by 40%
+#   tags: [leadership, infrastructure, python]
+
+education: []
+# Example entry:
+# - institution: University of Example
+#   degree: BS Computer Science
+#   dates: "2012-2016"
+#   gpa: "3.8"
+#   highlights:
+#     - Dean's List
+
+skills:
+  languages: []
+  frameworks: []
+  tools: []
+  other: []
+
+projects: []
+# Example entry:
+# - name: Open Source Tool
+#   url: https://github.com/user/tool
+#   description: Brief description
+#   highlights:
+#     - 500+ GitHub stars
+#   tags: [python, cli]
+
+certifications: []
+# Example entry:
+# - name: AWS Solutions Architect
+#   issuer: Amazon Web Services
+#   date: "2023"
