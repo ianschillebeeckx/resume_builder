@@ -51,6 +51,8 @@ After updating `data/cv.yaml`:
 
 Note: Check the log before processing - if a resume was already parsed, confirm the user wants to re-process it.
 
+**Privacy**: Do not include co-author names in publications - only store title, venue, date, and URL.
+
 ## Example
 
 ```

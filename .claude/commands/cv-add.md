@@ -21,3 +21,4 @@ Add a new entry to the master CV database.
 
 - For experience entries, help craft strong bullet points (action verb + what + impact)
 - Suggest relevant tags based on the content
+- **Privacy**: Do not include co-author names in publications - only store title, venue, date, and URL

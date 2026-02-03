@@ -3,78 +3,561 @@
 # Used as source material for generating tailored resumes
 
 _metadata:
-  parsed_resumes: []
-  # Example entry:
-  # - file: "resume-2023-google.md"
-  #   date: "2025-01-15"
+  parsed_resumes:
+    - file: "250202_linkedin_profile.pdf"
+      date: "2026-02-02"
+    - file: "250829 AI Health Advisory Overview.docx.md"
+      date: "2026-02-02"
+    - file: "2023_ml_bioinformatics_lifescience.docx.md"
+      date: "2026-02-02"
+    - file: "2023_product_cruise_ai.docx.md"
+      date: "2026-02-02"
+    - file: "2023_product_deepcell_ai.docx.md"
+      date: "2026-02-02"
+    - file: "2023_product_domino_ai.docx.md"
+      date: "2026-02-02"
+    - file: "2023_RnD_CareDX.docx.md"
+      date: "2026-02-02"
+    - file: "2024_vp_ai.docx.md"
+      date: "2026-02-02"
 
 contact:
-  name: ""
-  email: ""
-  phone: ""
-  location: ""
-  linkedin: ""
-  github: ""
+  name: "Ian Schillebeeckx"
+  email: "ianschillebeeckx@gmail.com"
+  phone: "636.667.7425"
+  location: "San Francisco, California, United States"
+  linkedin: "linkedin.com/in/ianschillebeeckx"
+  github: "https://github.com/ianschillebeeckx/"
 
-summary: ""
+summary: "With over 10 years of experience in healthcare entrepreneurship, research and development, and product management, I am a passionate and innovative leader who currently drives the vision and execution of RNA-based diagnostics and biomarkers for immuno-oncology assays at Cofactor Genomics. I hold a PhD in Computer Science with a focus on machine learning, and I have a strong experience with molecular biology, bioinformatics, and NGS analysis."
 
-experience: []
-# Example entry:
-# - company: Acme Corp
-#   title: Senior Engineer
-#   dates: "2020-2023"
-#   location: San Francisco, CA
-#   bullets:
-#     - Led team of 5 engineers on platform rewrite
-#     - Reduced deployment time by 40%
-#   tags: [leadership, infrastructure, python]
+experience:
+  - company: "CareDx, Inc."
+    title: "Vice President of Enterprise Data Science and AI"
+    dates: "January 2025 - Present"
+    location: "San Francisco Bay Area"
+    bullets:
+      - "Established and led cross-functional Data Science team driving business impact across Commercial, Operations, Billing, and enterprise AI adoption"
+      - "Revenue Optimization: Led initiative increasing payment rates by ~10% through predictive modeling, causal inference (DAGs, causal random forests), and data-driven business rules"
+      - "Strategic Product Planning: Developed AI agent scoring product opportunities on market potential and technical feasibility, directly informing company's 5-year product roadmap"
+      - "Forecasting Excellence: Transformed core business forecasting from 6% to 0.9% average absolute error through custom optimization (business line representing ~90% of revenue), delivering weekly C-suite reports and executive dashboards"
+      - "AI Transformation: Reversed company AI policy from restrictive to 92% monthly active usage through grassroots education, executive alignment, and company-wide training—estimated to save 8% of total company hours annually"
+      - "Research Acceleration: Deployed internal RAG-based knowledge discovery platform and AI-powered content generation tool, producing 12 research manuscripts with 2 journal submissions"
+      - "Commercial Analytics: Conducted causal observational studies identifying key business drivers using modern causal inference methods"
+      # From advisory overview
+      - "Diagnostics Revenue Cycle Management (RCM) optimization"
+      - "Revenue forecasting"
+      - "Various LLM apps/projects"
+      - "Sales causal inference"
 
-education: []
-# Example entry:
-# - institution: University of Example
-#   degree: BS Computer Science
-#   dates: "2012-2016"
-#   gpa: "3.8"
-#   highlights:
-#     - Dean's List
+  - company: "CareDx, Inc."
+    title: "Vice President of Data Science"
+    dates: "January 2024 - January 2025"
+    location: "San Francisco Bay Area"
+    bullets:
+      - "Led R&D Data Science organization spanning Bioinformatics, Statistics, and Data Science teams, reporting to Chief Scientific Officer"
+      - "Restructured team operations to dedicate 15% capacity toward Data Science-led clinical investigations"
+      - "Pioneered two company firsts: the first longitudinal model for rejection prediction using cfDNA, and the first evidence demonstrating test impact on therapeutic decision-making"
+      - "Expanded Data Science influence beyond R&D into cross-functional operations"
+      - "Directed development and validation of two RNA-seq based transplant rejection prediction models"
+      # From advisory overview
+      - "Managed 14 people across 3 teams: bioinformatics, data science, statistics"
+      - "$6M budget responsibility"
+      - "Board of Directors participation"
+      - "Wrote NY-state and CLIA regulatory filings"
+      - "Leader for 2 novel CLIA biomarkers"
+      - "Registry and interventional clinical study design"
+      - "Classical AI for longitudinal data"
+      - "ML leader for 2 novel biomarkers"
+      - "Exploratory and prespecified analysis"
+      # From 2024_vp_ai resume
+      - "Pitched and led $2M automated literature review project (vector search and LLM)"
+      - "Contributed to GenAI company policy"
+
+  - company: "Cofactor Genomics"
+    title: "Vice President of Product"
+    dates: "February 2022 - January 2024"
+    location: "San Francisco, California, United States"
+    bullets:
+      - "Primary decision-maker of all product, machine learning, biomarker, and diagnostic considerations of 3 LDT and IVD RNA-seq immuno-oncology diagnostic tests in a CAP/CLIA/GMP regulated environment"
+      # Product Management
+      - "Defined 3/1 year roadmaps and company wide OKRs every quarter"
+      - "Designed and monitored KPIs for machine learning and product performances"
+      - "Established value proposition by interviewing 30+ end users and key opinion leaders"
+      - "Wrote requirements and user story for web portal and launched in 4 weeks with 1 SWE"
+      - "Monitored competitors and created our regulatory strategies from their precedent"
+      - "Represented company at conferences and presented as products figure head"
+      # Machine Learning Management
+      - "Machine learning from 1000s x 100s tables to predict response to 5 cancers"
+      - "1st author on ML based biomarker Nature paper (2nd most downloaded in 2022)"
+      - "Authored 3 Artificial Intelligence based patents and managed IP portfolio"
+      - "Architected ML model repository and training data (100s GBs) database"
+      - "Architected AWS Batch pipeline, resulting in +200% speed and -25% cost"
+      # Diagnostic Management
+      - "Design companion diagnostic development and validation roadmaps"
+      - "Directly managed biomarker team and coordinated external lawyers, reagent vendors, manufacturers, and statistical/regulatory consultants"
+      - "Managed kit box manufacture and Contract Manufacturing Organization to fulfill GMP-compliant IVD kit"
+      - "Created Master Service Agreements with 6 different reagent vendors"
+      - "Worked on design control system and FDA breakthrough device designation application"
+      - "1st author on CAP analytical validation paper"
+      - "Led biomarker discovery and validation in HNSCC, NSCLC, Bladder, Kidney, Melanoma Cancers"
+      - "Established value proposition of LDT by interviewing 30+ physicians and key opinion leaders"
+      - "Designed Palmetto MolDX validation strategy with limited precedent"
+      - "Designed primary endpoints of 3, IRB-approved, pre-specified clinical validation studies"
+      # From advisory overview
+      - "Launched 2 RUO (Research Use Only) products and developed 3 LDTs (Laboratory Developed Tests)"
+      - "Created successful Medicare reimbursement validation strategy"
+      - "Designed analytical validity, clinical validity, and clinical utility studies"
+      - "Created reimbursed ML-based biomarker"
+      - "Developed pitch deck for investors and partners"
+      # From 2023 resumes - product metrics
+      - "Research IVD test 1 had $1M in sales before sunsetting at COVID pivot"
+      - "Research LDT test 2 was launched with a 40% cold click rate from ideation in 12 months before sunsetting with COVID pivot"
+      - "Clinical LDT test 3 made through 2nd clinical validation"
+      - "Wrote reqs and user stories for 2 web portals"
+      - "Used AWS SageMaker to manage ML models and version training data"
+      - "Directly managed biomarker team of 10 wet and dry lab scientists"
+      - "Managed and shipped dozens of backend and frontend versions of software"
+      # From ml_bioinformatics resume - PREDAPT study details
+      - "Led teams through rapid iterations of learning and achieving milestones in a startup environment"
+      - "Directly and indirectly managed startup team of 5 bioinformaticians and 3 wet lab scientists"
+      - "Owned Product/Biomarker Definitions, Milestones, and Roadmaps"
+      - "Served as internal company expert on immunology, medical oncology, statistics, machine learning, and software"
+      - "Invented data-driven techniques core to company's IP"
+      - "Led biomarker development to predict immunotherapy response in Head and Neck Cancer"
+      - "Designed inclusion criteria and patient data requirements for PREDAPT study (NCT04510129)"
+      - "Designed clinical and analytical performance metrics and targets"
+      - "Feature Selection using literature and data driven techniques"
+      - "Model optimization using various algorithms and bootstrap cross validation"
+      - "Reviewed and wrote production code of biomarker in scalable cloud architecture"
+      - "Led the design, management, and execution of 3 pre-specified clinical validations (NCT05296135)"
+      - "Designed and coordinated implementation of reports (front-end that delivers test results) for 3 products"
+      # From RnD_CareDX resume
+      - "RUO Kit assay 1 launched with 6 molecular feature updates"
+      - "Familiar with various assay techs (IHC, Flow, RNAseq, qPCR, DNAseq, MRD, cfDNA)"
+      - "Directly managed and mentored team of 10 biomarker and NGS scientists using OKRs"
+      - "Designed and led CAP analytical validation of all assays"
+      - "Setup design control system and wrote FDA breakthrough device designation application"
+      - "Served as internal company expert on ISO/CLSI standards"
+      - "Built relationships and collaborations with 30+ external collaborators and key opinion leaders"
+      - "Designed and powered primary endpoints of 3 IRB-approved pre-specified clinical validation studies"
+
+  - company: "Cofactor Genomics"
+    title: "Director of Product Engineering"
+    dates: "August 2020 - March 2022"
+    location: "San Francisco Bay Area"
+    bullets:
+      - "Developed and managed RNA based products at Cofactor Genomics, including ImmunoPrism, an immunoprofiling and biomarker discovery assay for immuno-oncology and oncology researchers"
+      - "Assay considers low inputs of tumor from FFPE samples and reports on the quantitative presence of immune cell types, such as CD8+ Tcell and M1 and M2 macrophages"
+      - "ImmunoPrism is available as a CAP accredited service or in kit form"
+
+  - company: "Cofactor Genomics"
+    title: "Senior Product Development Manager"
+    dates: "December 2017 - August 2020"
+    location: "San Francisco Bay Area"
+    bullets: []
+
+  - company: "Where4Care"
+    title: "Chief Executive Officer"
+    dates: "May 2017 - August 2020"
+    location: "Greater St. Louis Area"
+    bullets:
+      - "Where4Care is a text message service that asks user about their symptoms and tells them where to go to seek care"
+      - "Where4Care saves patients time and saves payers money by pointing non-emergent cases away from ERs and towards lower cost health care settings"
+      # From advisory overview
+      - "Bootstrapped startup with 2 customers"
+      - "Designed and ran clinical study in urgent care"
+      - "SMS, Django, HIPAA compliant tech stack"
+      - "Finite State Machine Backend"
+      # From other resumes
+      - "Led team of 3 founders"
+      - "Implemented and validated full HIPAA-compliant cloud tech stack"
+      - "Worked with physicians to design validation and consented 200 patients at an Urgent Care"
+
+  - company: "Sling Health"
+    title: "Entrepreneur in Residence"
+    dates: "September 2016 - May 2017"
+    location: "Greater St. Louis Area"
+    bullets:
+      - "Solve medical problems by creating companies to commercialize medical technology solutions"
+      # From advisory overview
+      - "Led and mentored teams for 4 healthtech problems"
+      # From ml_bioinformatics resume - specific projects
+      - "Led 4 teams of MD, PhD, MBA, and undergraduate university students in 4 simultaneous projects"
+      - "Project 1: reducing non-emergent ER visits"
+      - "Project 2: tracking scratching with a wearable"
+      - "Project 3: cloud data analysis for legacy hospital machines"
+      - "Project 4: foot sizing / shoe recommendation mobile app using computer vision"
+
+  - company: "Sling Health"
+    title: "Chief Executive Officer & President, St. Louis Chapter"
+    dates: "January 2016 - January 2017"
+    location: "Greater St. Louis Area"
+    bullets:
+      - "Lead organization that enables 130+ students to solve clinical problems and learn entrepreneurship"
+      - "Lead financing and strategy across Washington University and Saint Louis University and across 5 departments"
+      - "Strategic focus on institutionalizing core activities with written internal protocols and resources"
+      - "Reorganized leadership structure to focus on core activities and scaling due to large growth in customer base"
+      # From advisory overview
+      - "Co-founded startup incubator/accelerator"
+      - "Mentored 50+ clinical projects through problem definition, ideation, prototype, and launch"
+      # From other resumes
+      - "Led non-profit organization of 15+ volunteers across medical, business, and undergraduate schools"
+      - "Planned and raised budget and increased revenue by 200% over 2 years"
+
+  - company: "Sling Health"
+    title: "Vice President & External Affairs"
+    dates: "June 2014 - January 2016"
+    location: "Greater St. Louis Area"
+    bullets:
+      - "Planned and financed FY16 Budget"
+      - "Established accounting system that tracks expenditures and tracks reimbursements for 40+ people"
+      - "Lead the formalization of IDEA Labs curriculum and implemented on 'wiki' online resource"
+      - "Lead publicity and promotional initiatives through social media, news sources, and public events"
+      - "Be the ear and voice of IDEA Labs on official channels"
+      - "Develop and cultivate relationships with university, community, and corporate stake holders"
+
+  - company: "Washington University in St. Louis"
+    title: "Graduate Research Assistant"
+    dates: "January 2013 - August 2016"
+    location: "Greater St. Louis Area"
+    bullets:
+      - "Department of Computer Science & Engineering, Pless Lab"
+      - "Research Topics: Synthetic Light Fields, Camera Calibration, Pose Estimation, Computational Photography, Long Term Time Lapse Imagery"
+      # From advisory overview
+      - "Fastest graduation in Department history"
+      - "Computer Vision PhD with 4 publications at high impact conferences (CVPR, ECCV, ICCP, 3DV)"
+
+  - company: "The Mint Group"
+    title: "Founder"
+    dates: "December 2013 - December 2014"
+    location: ""
+    bullets:
+      - "Taking a fresh approach to nasal endoscopy to change the existing paradigm of ENT care"
+      - "Medical imaging system comprised of an endoscope with disposable optics and wireless attachments that conforms to commodity standards"
+      - "System reduces the number of endoscopes and personnel a clinic must employ, reduce operating costs by 66% and initial investment by 90%"
+      - "2014 Arch Grants Finalist"
+      - "2014 IDEA Labs team"
+
+  - company: "Cofactor Genomics"
+    title: "Computational Scientist"
+    dates: "July 2011 - July 2012"
+    location: ""
+    bullets:
+      - "Characterized the consolidation of Illumina and 454 next-gen sequencing platforms and the effects of read characteristics, library types, and assemblers in DNA/RNA de novo assembly"
+      - "Established production pipelines based on research and development"
+      - "Translated R&D into marketing opportunities and industry presence through social media"
+      - "Designed custom analysis procedures through next-gen sequencing technologies and methodologies"
+      - "Delivered analysis through variant calling, expression analysis, and de novo assembly"
+      - "Designed and implemented memory, cpu, and I/O efficient analysis tools (C/C++/Perl)"
+
+  - company: "Independent Contractor (Dynalabs)"
+    title: "Consultant"
+    dates: "May 2011 - March 2012"
+    location: ""
+    bullets:
+      - "Deducing truths about quality, quantity, efficiency, reproducibility, etc related to different processes using elementary probability and statistics"
+      - "Supporting sales in translating these truths into terms the customer can understand"
+      - "Implementing QC and Sampling procedures to ensure statistical significance and industry standards"
+      - "For key probabilistic and statistical methods, implementing prototype software"
+
+  - company: "N/A"
+    title: "Independent Projects"
+    dates: "January 2011 - January 2012"
+    location: ""
+    bullets:
+      - "Unreleased alpha of a Speech Generation/Augmentative and Alternative Communication Device (Android 3.0)"
+      - "Release of StartAid, a competitive sailing application for Android to aid in start accuracy"
+      - "Developing Smoozy, a cheap, accessible, open-source solution to precision orientation built on the Arduino platform"
+
+  - company: "Saint Louis University"
+    title: "Senior Design Project"
+    dates: "August 2010 - December 2010"
+    location: ""
+    bullets:
+      - "Advisor: Michael Goldwasser, Ph.D"
+      - "Independently wrote a fully customizable Artificial Neural Network package with Backpropagation (C++)"
+      - "Used package to optimize a set of learning parameters to predict company share price"
+
+  - company: "Washington University School of Medicine"
+    title: "Research Technician"
+    dates: "August 2009 - December 2010"
+    location: ""
+    bullets:
+      - "Klyachko Laboratory"
+      - "Developed a novel environment for neuronal cell cultures using supported lipid bilayers"
+      - "Managed an undergraduates' protein synthesis project"
+      - "Elucidated the dynamics of short term synaptic plasticity in Fragile X rats using a proprietary mechanistic model (MATLAB)"
+      - "J. Neuroscience Methods publication: Automated condition-invariable neurite segmentation and synapse classification using textural analysis-based machine-learning algorithms"
+
+  - company: "CERN"
+    title: "Summer Student"
+    dates: "May 2009 - August 2009"
+    location: ""
+    bullets:
+      - "Advisor: Veronique Lefebure"
+      - "Information Technology Department of Fabric Infrastructure and Organization: Fabric Developments"
+      - "Wrote a script to parse thousands of Quattor .xml profiles to identify and list redundant RPM packages (Perl)"
+
+  - company: "Saint Louis University - Madrid"
+    title: "Advanced Independent Research"
+    dates: "January 2009 - May 2009"
+    location: ""
+    bullets:
+      - "Advisor: Fairouz Medjahed, Ph.D"
+      - "Independently wrote a preliminary parallel data mining package which combined First Order Machine Learning and Active Objects (Java)"
+
+  - company: "Washington University School of Medicine - Center for Genome Sciences and Systems Biology"
+    title: "Research Assistant"
+    dates: "August 2008 - December 2008"
+    location: ""
+    bullets:
+      - "Michael Brent's Computation Genomics Laboratory"
+      - "Mentor: Charles Comstock"
+      - "Implemented and refactored genetic statistical analysis scripts (bioPerl and Ruby)"
+
+  - company: "Donald Danforth Plant Science Center"
+    title: "Research Assistant"
+    dates: "May 2008 - August 2008"
+    location: ""
+    bullets:
+      - "Mentor: Dr. Brad Barbazuk"
+      - "Developed a training set of annotated gene models for Zea Mayz to optimize the Twinscan gene predictor (Perl)"
+
+education:
+  - institution: "Washington University in St. Louis"
+    degree: "Doctor of Philosophy (PhD), Computer Science"
+    dates: "2012 - 2016"
+    gpa: ""
+    thesis: "Geometric Inference with Microlens Arrays"
+    thesis_url: "https://openscholarship.wustl.edu/eng_etds/192/"
+    highlights:
+      - "Fastest graduation in Department history"
+      - "Computer Vision focus"
+      - "4 publications at high-impact conferences (CVPR, ECCV, ICCP, 3DV)"
+
+  - institution: "Saint Louis University"
+    degree: "Honors Bachelor of Science, Computer Science and Applied Mathematics"
+    dates: "2007 - 2011"
+    gpa: ""
+    highlights: []
 
 skills:
-  languages: []
-  frameworks: []
-  tools: []
-  other: []
+  programming_languages:
+    - "Python"
+    - "R"
+    - "MATLAB"
+    - "C++"
+    - "C"
+    - "Perl"
+    - "Java"
+    - "Ruby"
+    - "bioPerl"
+  machine_learning:
+    - "Supervised Learning"
+    - "Unsupervised Learning"
+    - "Feature Selection"
+    - "Cross Validation"
+    - "Bootstrap"
+    - "Model Optimization"
+  statistics:
+    - "Paired/Unpaired Tests"
+    - "Parametric/Non-parametric Tests"
+    - "Equivalence Testing"
+    - "Superiority Testing"
+    - "Non-inferiority Testing"
+    - "Causal Inference"
+    - "DAGs"
+    - "Causal Random Forests"
+  data_analysis:
+    - "PCA"
+    - "ICA"
+    - "Factor Analysis"
+    - "Large Table Data Analysis (1000s x 100s)"
+  cloud_infrastructure:
+    - "AWS"
+    - "AWS Batch"
+    - "AWS SageMaker"
+    - "Docker"
+    - "Scalable Cloud Pipeline Development"
+  bioinformatics:
+    - "RNAseq"
+    - "DNAseq"
+    - "cfDNA"
+    - "STAR"
+    - "Tophat"
+    - "Htseq"
+    - "Combat"
+    - "LIMMA trend/voom"
+    - "Variant Calling"
+    - "Expression Analysis"
+    - "De Novo Assembly"
+    - "NGS Analysis"
+  assay_technologies:
+    - "IHC"
+    - "Flow Cytometry"
+    - "RNAseq"
+    - "qPCR"
+    - "DNAseq"
+    - "MRD"
+    - "cfDNA"
+  software_development:
+    - "Version Control (Git)"
+    - "Unit Testing"
+    - "Regression Testing"
+    - "TravisCI"
+    - "CAP/CLIA Compliant Development"
+  management:
+    - "Creating and managing OKRs"
+    - "Product and Technology Roadmapping"
+    - "Interdisciplinary team management"
+    - "Team building, collaboration, and influencing"
+    - "Experiment scoping and documentation"
+    - "Requirement Specification and Design Control"
+  writing:
+    - "Patents"
+    - "Peer Review Publications"
+    - "Clinical Trial IRB"
+    - "Statistical Analysis Plans (SAP)"
+    - "Regulatory Filings (CLIA, NY-state)"
+  spoken_languages:
+    - "English (native)"
+    - "French (colloquially fluent)"
+    - "Spanish (intermediate)"
+    - "Dutch (previous exposure)"
+    - "German (previous exposure)"
 
 projects: []
-# Example entry:
-# - name: Open Source Tool
-#   url: https://github.com/user/tool
-#   description: Brief description
-#   highlights:
-#     - 500+ GitHub stars
-#   tags: [python, cli]
 
-certifications: []
-# Example entry:
-# - name: AWS Solutions Architect
-#   issuer: Amazon Web Services
-#   date: "2023"
+certifications:
+  - name: "Technical Product Management"
+    issuer: ""
+    date: ""
 
-publications: []
-# Example entry:
-# - title: "Paper Title"
-#   venue: "Conference/Journal Name"
-#   date: "2023"
-#   url: ""
-#   authors: []
+publications:
+  - title: "Strategies for De Novo Assembly of Genomes and Transcriptomes Using Combined Illumina and Roche 454 Sequencing Data"
+    type: "journal"
+    venue: ""
+    date: ""
+    url: ""
 
-patents: []
-# Example entry:
-# - title: "Patent Title"
-#   number: "US1234567"
-#   date: "2023"
-#   status: granted  # or pending
+  - title: "Structure from Shadow Motion"
+    type: "conference"
+    venue: "ICCP 2014"
+    date: "2014"
+    url: "https://ieeexplore.ieee.org/abstract/document/6831802"
 
-miscellaneous: []
-# Example entry:
-# - category: "Languages"
-#   items: ["English (native)", "Spanish (conversational)"]
+  - title: "Analytical Performance of an Immunoprofiling Assay Based on RNA Models"
+    type: "journal"
+    venue: "Journal of Molecular Diagnostics"
+    date: "2020"
+    url: "https://www.sciencedirect.com/science/article/pii/S1525157820300167"
+
+  - title: "Automated condition-invariable neurite segmentation and synapse classification using textural analysis-based machine-learning algorithms"
+    type: "journal"
+    venue: "J. Neuroscience Methods"
+    date: "2013"
+    url: "https://www.sciencedirect.com/science/article/abs/pii/S0165027012004785"
+
+  - title: "Structured Light Field Design for Correspondence Free Rotation Estimation"
+    type: "conference"
+    venue: "ICCP 2015"
+    date: "2015"
+    url: "https://ieeexplore.ieee.org/abstract/document/7168376"
+
+  - title: "The Geometry of Colorful, Lenticular Fiducial Markers"
+    type: "conference"
+    venue: "3DV 2015"
+    date: "2015"
+    url: "https://ieeexplore.ieee.org/abstract/document/7335518"
+
+  - title: "Single Image Camera Calibration with Lenticular Arrays for Augmented Reality"
+    type: "conference"
+    venue: "CVPR 2016"
+    date: "2016"
+    url: "https://www.computer.org/csdl/proceedings-article/cvpr/2016/8851d290/12OmNx0A7Bo"
+
+  - title: "Pose Hashing with Microlens Arrays"
+    type: "conference"
+    venue: "ECCV 2016"
+    date: "2016"
+    url: "https://link.springer.com/chapter/10.1007/978-3-319-46487-9_37"
+
+  - title: "ML based biomarker Nature paper (2nd most downloaded in 2022)"
+    type: "journal"
+    venue: "Nature Scientific Reports"
+    date: "2022"
+    url: "https://www.nature.com/articles/s41598-022-05474-7"
+
+  - title: "Clinical validity study (Journal of Cancer Research and Clinical Oncology)"
+    type: "journal"
+    venue: "Journal of Cancer Research and Clinical Oncology"
+    date: "2023"
+    url: "https://link.springer.com/article/10.1007/s00432-023-05205-z"
+
+  - title: "Multicenter validation of an RNA-based assay to predict anti-PD-1 disease control in patients with recurrent or metastatic head and neck squamous cell carcinoma: the PREDAPT study"
+    type: "journal"
+    venue: "PMC"
+    date: "2024"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11535711/"
+
+  - title: "Impact of Ultrasound-guided Percutaneous Core Needle Biopsy on Biomarkers of Human Kidney Allograft Status"
+    type: "journal"
+    venue: "Transplantation"
+    date: "2025"
+    url: "https://pubmed.ncbi.nlm.nih.gov/40048628/"
+    doi: "10.1097/TP.0000000000005355"
+
+patents:
+  - title: "Artificial Intelligence Methods to Predict Immune Response"
+    number: ""
+    date: "2022"
+    status: "in review"
+    url: ""
+
+  - title: "Methods to Determine Cellular States"
+    number: ""
+    date: "2020"
+    status: "in review"
+    url: ""
+
+  - title: "Methods and Systems of Processing Complex Data Sets Using Artificial Intelligence and Deconvolution"
+    number: "US-11742058-B2"
+    date: "2023-08-29"
+    status: "granted"
+    url: "https://patents.google.com/patent/US11742058B2"
+    related:
+      - number: "US-20240185956-A1"
+        date: "2024-06-06"
+        note: "continuation"
+      - number: "US-20210133592-A1"
+        date: "2021-05-06"
+        note: "original application"
+
+  - title: "Immuno-oncology Applications Using Next Generation Sequencing"
+    number: "US10636512B2"
+    date: "2018"
+    status: "granted"
+    url: "https://patents.google.com/patent/US10636512B2"
+
+  - title: "Camera Calibration with Lenticular Arrays"
+    number: "US-10455138-B2"
+    date: "2019-10-22"
+    status: "granted"
+    url: "https://patents.google.com/patent/US10455138B2/en"
+    related:
+      - number: "US-20180131861-A1"
+        date: "2018-05-10"
+        note: "original application"
+
+miscellaneous:
+  - category: "Citizenship"
+    items:
+      - "Belgian/American dual citizen"
+      - "Legal status to work in Europe and United States"
+  - category: "Hardware Experience"
+    items:
+      - "Optics"
+      - "Inertial measurement"
+      - "PCB design"
+      - "Carbon composites"
