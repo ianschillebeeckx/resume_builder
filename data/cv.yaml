@@ -41,14 +41,17 @@ experience:
       - "Revenue Optimization: Led initiative increasing payment rates by ~10% through predictive modeling, causal inference (DAGs, causal random forests), and data-driven business rules"
       - "Strategic Product Planning: Developed AI agent scoring product opportunities on market potential and technical feasibility, directly informing company's 5-year product roadmap"
       - "Forecasting Excellence: Transformed core business forecasting from 6% to 0.9% average absolute error through custom optimization (business line representing ~90% of revenue), delivering weekly C-suite reports and executive dashboards"
-      - "AI Transformation: Reversed company AI policy from restrictive to 92% monthly active usage through grassroots education, executive alignment, and company-wide training—estimated to save 8% of total company hours annually"
+      - "AI Transformation: Reversed company AI policy from restrictive to 92% monthly active usage of Copilot and ChatGPT through grassroots education, C-level alignment, and company-wide (~750 employees) training—saving 8% of total company hours annually"
       - "Research Acceleration: Deployed internal RAG-based knowledge discovery platform and AI-powered content generation tool, producing 12 research manuscripts with 2 journal submissions"
       - "Commercial Analytics: Conducted causal observational studies identifying key business drivers using modern causal inference methods"
+      - "Pioneered company's first agentic coding workflows by developing custom Codex/Claude Code implementation with specialized database access tools and comprehensive context documentation, improving team productivity by an estimated 50%"
+      - "Drove codex adoption in larger group (statistics, data eng, bioinformatics, data science) by securing executive approval and leading regular peer training sessions for ~20 Data and AI practitioners"
       # From advisory overview
       - "Diagnostics Revenue Cycle Management (RCM) optimization"
       - "Revenue forecasting"
       - "Various LLM apps/projects"
       - "Sales causal inference"
+    tags: [llm, ai-agents, codex, claude-code, training, change-management, developer-tools, productivity, forecasting, causal-inference, predictive-modeling, machine-learning, leadership, data-science, rag, rcm]
 
   - company: "CareDx, Inc."
     title: "Vice President of Data Science"
