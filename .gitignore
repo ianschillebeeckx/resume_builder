@@ -1,7 +1,8 @@
-# Output (track .tex and .pdf, ignore artifacts)
+# Output (track .tex, .pdf, .md - ignore artifacts)
 output/*
 !output/*.tex
 !output/*.pdf
+!output/*.md
 
 # LaTeX artifacts
 *.aux
