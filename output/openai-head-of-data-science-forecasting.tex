@@ -1,0 +1,187 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[margin=0.4in]{geometry}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins are set by geometry package above
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ian Schillebeeckx} \\ \vspace{1pt}
+    \small 636.667.7425 $|$ \href{mailto:ianschillebeeckx@gmail.com}{\underline{ianschillebeeckx@gmail.com}} $|$
+    \href{https://linkedin.com/in/ianschillebeeckx}{\underline{linkedin.com/in/ianschillebeeckx}} $|$
+    \href{https://github.com/ianschillebeeckx}{\underline{github.com/ianschillebeeckx}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Washington University in St. Louis}{St. Louis, MO}
+      {PhD, Computer Science (Computer Vision) -- Fastest graduation in department history}{2012 -- 2016}
+    \resumeSubheading
+      {Saint Louis University}{St. Louis, MO}
+      {\parbox[t]{3.5in}{Honors BS, Computer Science \\ Honors BS, Applied Mathematics}}{2007 -- 2011}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {VP of Enterprise Data Science and AI}{January 2025 -- Present}
+      {CareDx, Inc.}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Built unit volume forecasting capability from scratch ($\sim$75\% of revenue), reducing error from 6\% to 0.9\% across 3/6/12/24-month horizons; deployed Streamlit dashboard for C/VP-level stakeholder access with automated 90-day revalidation; integrated with CFO into quarterly/annual planning}
+        \resumeItem{Established company's first Data Science function outside R\&D; became trusted analytical partner to CEO, CFO, and COO for commercial business strategy across Commercial, Operations, and Billing}
+        \resumeItem{Drove 10\% revenue increase through end-to-end ML workflow: observational studies, feature engineering, model development, causal inference (Causal DAG/RF), and pre-post controlled analysis}
+        \resumeItem{Directed development of predictive churn system covering \$270M revenue (all US transplant clinics); replaced 6-month-lag detection with forward-looking model using novel piecewise linear + dynamic programming approach}
+        \resumeItem{Pitched and secured \$1M for RAG-based literature review platform deployed company-wide; directed LLM app producing 12 research manuscripts with 2 journal submissions}
+        \resumeItem{Drove company-wide AI transformation to 92\% Copilot adoption ($\sim$750 employees), saving 8\% of total hours annually; pioneered Codex data science workflows improving team productivity 50\%}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {VP of Data Science}{January 2024 -- January 2025}
+      {CareDx, Inc.}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Led R\&D Data Science organization (14 people, \$6M budget) spanning Bioinformatics, Statistics, and Data Science teams; reported to CSO with Board of Directors participation}
+        \resumeItem{Directed development of longitudinal time series model using LSTM to predict outcomes from sequential measurements ($\sim$1200 patients, $\sim$5000 time points), outperforming Kalman Filters, HMMs, and cross-sectional models; presented at international conference (top 10\%)}
+        \resumeItem{Directed development and validation of two production RNA-seq prediction models (blood-based SVM with RBF kernel, tissue-based LASSO regression) achieving regulatory deployment}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Head of Product and Data Science}{December 2017 -- January 2024}
+      {Cofactor Genomics}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{First author on Nature ML paper (2nd most downloaded in 2022) and 3 AI patents}
+        \resumeItem{Designed, trained, and launched 2 ML model based products in CAP/CLIA regulated environment}
+        \resumeItem{Designed and powered prespecified randomized multi-center study ($\sim$500 subjects, 12+ sites) to validate production ML model using CMH, Fisher Exact, and McNemar tests; achieved regulatory approval enabling commercial revenue}
+        \resumeItem{Optimized AWS Batch pipeline (+200\% speed, -25\% cost); owned end-to-end production code (AWS/CI/CL)}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PUBLICATIONS-----------
+\section{Selected Publications \& Patents}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{3 Artificial Intelligence Patents} -- Methods for immune response prediction, cellular state determination, and data processing using AI/deconvolution \\
+     \vspace{2pt}
+     \textbf{ML-based Biomarker for Immunotherapy Response} -- \emph{Nature Scientific Reports, 2022 (2nd most downloaded)} \\
+     \vspace{2pt}
+     \textbf{4 Computer Vision Publications} -- \emph{CVPR, ECCV, ICCP, 3DV (2014-2016)}
+    }}
+ \end{itemize}
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages \& Tools}{: Python, R, SQL, MATLAB, Streamlit, AWS (Batch, SageMaker), Databricks, Docker} \\
+     \textbf{ML \& Statistics}{: Time Series Forecasting (ARIMA, LSTM, Prophet), Causal Inference (DAGs, Causal Forests), Predictive Modeling, [Un]supervised Learning, Model Monitoring \& Explainability, Production ML Systems} \\
+     \textbf{Data Science}{: Feature Engineering, Cross Validation, Bootstrap, Large-Scale Data Analysis, A/B Testing} \\
+     \textbf{Leadership}{: Team Building, Product Roadmapping, OKRs, Cross-Functional Collaboration, Executive Communication}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
