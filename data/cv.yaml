@@ -40,7 +40,7 @@ experience:
       - "Established and led cross-functional Data Science team driving business impact across Commercial, Operations, Billing, and enterprise AI adoption"
       - "Revenue Optimization: Led initiative increasing payment rates by ~10% through predictive modeling, causal inference (DAGs, causal random forests), and data-driven business rules"
       - "Strategic Product Planning: Developed AI agent scoring product opportunities on market potential and technical feasibility, directly informing company's 5-year product roadmap"
-      - "Forecasting Excellence: Transformed core business forecasting from 6% to 0.9% average absolute error through custom optimization (business line representing ~90% of revenue), delivering weekly C-suite reports and executive dashboards"
+      - "Forecasting Excellence: Transformed core business forecasting from 6% to 0.9% average absolute error through custom optimization (business line representing ~90% of revenue), delivering weekly C-suite reports and executive dashboards. Worked with CFO and finance team to integrate into reported numbers."
       - "AI Transformation: Reversed company AI policy from restrictive to 92% monthly active usage of Copilot and ChatGPT through grassroots education, C-level alignment, and company-wide (~750 employees) training—saving 8% of total company hours annually"
       - "Research Acceleration: Deployed internal RAG-based knowledge discovery platform and AI-powered content generation tool, producing 12 research manuscripts with 2 journal submissions"
       - "Commercial Analytics: Conducted causal observational studies identifying key business drivers using modern causal inference methods"
@@ -340,7 +340,13 @@ education:
       - "4 publications at high-impact conferences (CVPR, ECCV, ICCP, 3DV)"
 
   - institution: "Saint Louis University"
-    degree: "Honors Bachelor of Science, Computer Science and Applied Mathematics"
+    degree: "Honors Bachelor of Science, Computer Science"
+    dates: "2007 - 2011"
+    gpa: ""
+    highlights: []
+
+  - institution: "Saint Louis University"
+    degree: "Honors Bachelor of Science, Applied Mathematics"
     dates: "2007 - 2011"
     gpa: ""
     highlights: []
@@ -431,11 +437,6 @@ skills:
     - "German (previous exposure)"
 
 projects: []
-
-certifications:
-  - name: "Technical Product Management"
-    issuer: ""
-    date: ""
 
 publications:
   - title: "Strategies for De Novo Assembly of Genomes and Transcriptomes Using Combined Illumina and Roche 454 Sequencing Data"
