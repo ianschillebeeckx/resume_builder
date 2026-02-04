@@ -1,0 +1,12 @@
+# Job Applications Log
+# Track submitted applications, dates, and materials used
+
+applications:
+  - company: "OpenAI"
+    role: "Head of Data Science and Machine Learning, Global Forecasting"
+    source: "https://www.linkedin.com/jobs/view/4331478595/"
+    date_applied: "2026-02-04"
+    resume: "output/openai-head-of-data-science-forecasting.pdf"
+    additional_info: "output/openai-head-of-data-science-forecasting-additional.md"
+    status: "applied"
+    notes: ""
