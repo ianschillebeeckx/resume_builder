@@ -32,30 +32,30 @@ This role is based in San Francisco, CA. We follow a hybrid work model of three 
 
 ## In This Role, You Will
 
-Build and manage a world-class team of applied data scientists and ML engineers to develop forecasting platforms at scale.
-Design and own the roadmap for the forecasting platform in partnership with cross-functional stakeholders.
-Collaborate closely with Strategic Finance teams to ensure forecasts are well integrated into planning processes, and executive decision-making.
-Work closely with cross-functional partners to help them adopt scientific, automated forecasting solutions.
-Own the end-to-end modeling lifecycle, including scoping, feature engineering, model development and prototyping, experimentation, deployment, monitoring, and explainability.
-Research and evaluate emerging tools and techniques in the forecasting space.
-Translate technical outputs into business-aligned recommendations and decision frameworks.
+- Build and manage a world-class team of applied data scientists and ML engineers to develop forecasting platforms at scale
+- Design and own the roadmap for the forecasting platform in partnership with cross-functional stakeholders
+- Collaborate closely with Strategic Finance teams to ensure forecasts are well integrated into planning processes, and executive decision-making
+- Work closely with cross-functional partners to help them adopt scientific, automated forecasting solutions
+- Own the end-to-end modeling lifecycle, including scoping, feature engineering, model development and prototyping, experimentation, deployment, monitoring, and explainability
+- Research and evaluate emerging tools and techniques in the forecasting space
+- Translate technical outputs into business-aligned recommendations and decision frameworks
 
 ## You Might Thrive In This Role If You Have
 
-Extensive experience building production-ready models for time series applications.
-Proven track record of building adjustable and explainable forecast models for multiple planning cycles.
-10+ years of applied data science & engineering experience, with deep hands-on expertise in forecasting and predictive modeling.
-Demonstrated experience with model monitoring, debugging, and long-term maintenance in production environments.
-Excellent communication and storytelling skills — able to simplify complexity and influence executive stakeholders.
-Team leadership experience with a track record of building high-performing, engaged teams.
-An advanced degree (MS or PhD) in a quantitative field (e.g., Statistics, Computer Science, Economics, Operations Research).
-A self-directed, intellectually curious mindset and comfort leading ambiguous projects from 0→1.
-The ability to thrive in a dynamic environment — flexible, resourceful, and willing to do what it takes to succeed.
+- Extensive experience building production-ready models for time series applications
+- Proven track record of building adjustable and explainable forecast models for multiple planning cycles
+- 10+ years of applied data science & engineering experience, with deep hands-on expertise in forecasting and predictive modeling
+- Demonstrated experience with model monitoring, debugging, and long-term maintenance in production environments
+- Excellent communication and storytelling skills — able to simplify complexity and influence executive stakeholders
+- Team leadership experience with a track record of building high-performing, engaged teams
+- An advanced degree (MS or PhD) in a quantitative field (e.g., Statistics, Computer Science, Economics, Operations Research)
+- A self-directed, intellectually curious mindset and comfort leading ambiguous projects from 0→1
+- The ability to thrive in a dynamic environment — flexible, resourceful, and willing to do what it takes to succeed
 
 ## Bonus If You Have
 
-Experience building or scaling forecasting platforms in a high-growth company.
-A passion for AI and a strong perspective on how machine learning should inform strategic decisions in fast-moving environments.
+- Experience building or scaling forecasting platforms in a high-growth company
+- A passion for AI and a strong perspective on how machine learning should inform strategic decisions in fast-moving environments
 
 ## About OpenAI
 

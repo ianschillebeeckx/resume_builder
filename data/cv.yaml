@@ -37,16 +37,18 @@ experience:
     dates: "January 2025 - Present"
     location: "San Francisco Bay Area"
     bullets:
-      - "Established and led cross-functional Data Science team driving business impact across Commercial, Operations, Billing, and enterprise AI adoption"
+      - "Established company's first Data Science function outside R&D; became trusted analytical partner to CEO, CFO, and COO for commercial business strategy across Commercial, Operations, and Billing"
+      - "Drove 10% revenue increase through end-to-end ML workflow: observational studies, feature engineering, model development, causal inference (Causal DAG/RF), and pre-post controlled analysis"
       - "Revenue Optimization: Led initiative increasing payment rates by ~10% through predictive modeling, causal inference (DAGs, causal random forests), and data-driven business rules"
       - "Strategic Product Planning: Developed AI agent scoring product opportunities on market potential and technical feasibility, directly informing company's 5-year product roadmap"
-      - "Forecasting Excellence: Improved product volume (~75% of revenue) forecasting from 6% to 0.9% average absolute error through custom optimization, delivering weekly C-suite reports and executive dashboards. Worked with CFO and finance team to integrate into reported numbers."
-      - "AI Transformation of Company: Reversed company AI policy from restrictive to 92% monthly active usage of Copilot and ChatGPT through grassroots education, C-level alignment, and company-wide (~750 employees) training—saving 8% of total company hours annually"
+      - "Forecasting Excellence: Built unit volume forecasting capability from scratch (~75% of revenue), reducing error from 6% to 0.9% across 3/6/12/24-month horizons through custom time series optimization. Deployed Streamlit dashboard for stakeholder access with automated 90-day revalidation. Delivered weekly C-suite reports and integrated forecasts with CFO into quarterly/annual planning. Directly forecasted product volumes, indirectly YoY growth."
+      - "AI Transformation of Company: Drove company-wide AI transformation to 92% Copilot adoption (~750 employees), saving 8% of total hours annually; pioneered Codex data science workflows improving team productivity 50%"
       - "Pitched and secured $1M for automated literature review RAG application; deployed to entire company for knowledge discovery"
       - "Oversaw development of paper writing LLM app, producing 12 research manuscripts with 2 submitted to journals"
       - "Commercial Analytics: Conducted causal observational studies identifying key business drivers using modern causal inference methods"
       - "Pioneered company's first agentic data science workflows by developing custom Codex/Claude Code implementation with specialized database access tools and comprehensive context documentation, improving team productivity by an estimated 50%"
       - "Drove codex adoption in larger group (statistics, data eng, bioinformatics, data science) by securing executive approval and leading regular peer training sessions for ~20 Data and AI practitioners"
+      - "Directed development of predictive churn system covering $270M revenue (all US transplant clinics); replaced 6-month-lag detection with forward-looking model using novel piecewise linear + dynamic programming approach"
       # From advisory overview
       - "Diagnostics Revenue Cycle Management (RCM) optimization"
       - "Revenue forecasting"
@@ -113,6 +115,7 @@ experience:
       - "Designed endpoints to minimize sample size; powered studies (~500 patients across 12+ sites) using NCSS-PASS with statistical methods including CMH test, Fisher Exact, and McNemar test"
       - "Led multi-center clinical validation demonstrating sensitivity/specificity and using McNemar test to show biomarker score inversely correlated with clinical outcomes (OS, ORR), achieving MolDX approval and Medicare reimbursement—enabling commercial access to largest US cancer payer"
       # From advisory overview
+      - "Designed, trained, and launched 2 ML model based products in CAP/CLIA regulated environment"
       - "Launched 2 RUO (Research Use Only) products and developed 3 LDTs (Laboratory Developed Tests)"
       - "Created successful Medicare reimbursement validation strategy"
       - "Designed analytical validity, clinical validity, and clinical utility studies"
@@ -374,6 +377,9 @@ skills:
     - "Cross Validation"
     - "Bootstrap"
     - "Model Optimization"
+    - "ARIMA"
+    - "LSTM"
+    - "Prophet"
   statistics:
     - "Paired/Unpaired Tests"
     - "Parametric/Non-parametric Tests"
@@ -392,6 +398,8 @@ skills:
     - "AWS"
     - "AWS Batch"
     - "AWS SageMaker"
+    - "Databricks"
+    - "Streamlit"
     - "Docker"
     - "Scalable Cloud Pipeline Development"
   bioinformatics:
