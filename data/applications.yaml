@@ -55,3 +55,12 @@ applications:
     additional_info: ""
     status: "applied"
     notes: ""
+
+  - company: "Roku"
+    role: "Director, Analytics"
+    source: "https://www.linkedin.com/jobs/view/4318124122/"
+    date_applied: "2026-02-05"
+    resume: "output/250205_enterprise_data_science.pdf"
+    additional_info: ""
+    status: "applied"
+    notes: ""
