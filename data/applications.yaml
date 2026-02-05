@@ -28,3 +28,12 @@ applications:
     additional_info: ""
     status: "applied"
     notes: ""
+
+  - company: "SmarterDx"
+    role: "Director of Data Science"
+    source: "https://www.linkedin.com/jobs/view/4367690295/"
+    date_applied: "2026-02-05"
+    resume: "output/250205_enterprise_data_science.pdf"
+    additional_info: ""
+    status: "applied"
+    notes: "Fully remote"
