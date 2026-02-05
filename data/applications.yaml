@@ -19,3 +19,12 @@ applications:
     additional_info: ""
     status: "applied"
     notes: "Remote, CA Bay Area preferred"
+
+  - company: "PayPal"
+    role: "Senior Director, Head of Data Analytics & Insights"
+    source: "https://www.linkedin.com/jobs/view/4354105005/"
+    date_applied: "2026-02-05"
+    resume: "output/250205_enterprise_data_science.pdf"
+    additional_info: ""
+    status: "applied"
+    notes: ""
