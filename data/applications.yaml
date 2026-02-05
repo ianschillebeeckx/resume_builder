@@ -46,3 +46,12 @@ applications:
     additional_info: ""
     status: "applied"
     notes: ""
+
+  - company: "LendingClub"
+    role: "Director, Data Science & Machine Learning"
+    source: "https://www.linkedin.com/jobs/view/4282026314/"
+    date_applied: "2026-02-05"
+    resume: "output/250205_enterprise_data_science.pdf"
+    additional_info: ""
+    status: "applied"
+    notes: ""
