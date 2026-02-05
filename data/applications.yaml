@@ -37,3 +37,12 @@ applications:
     additional_info: ""
     status: "applied"
     notes: "Fully remote"
+
+  - company: "Meta"
+    role: "Director, Biz Experience Data Science"
+    source: "https://www.linkedin.com/jobs/view/4350155422/"
+    date_applied: "2026-02-05"
+    resume: "output/250205_enterprise_data_science.pdf"
+    additional_info: ""
+    status: "applied"
+    notes: ""
