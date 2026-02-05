@@ -10,3 +10,12 @@ applications:
     additional_info: "output/openai-head-of-data-science-forecasting-additional.md"
     status: "applied"
     notes: ""
+
+  - company: "BeOne Medicines"
+    role: "Director, Forecasting and Analytics, North America"
+    source: "https://www.linkedin.com/jobs/view/4362092212/"
+    date_applied: "2026-02-05"
+    resume: "output/250205_beione_forecasting.pdf"
+    additional_info: ""
+    status: "applied"
+    notes: "Remote, CA Bay Area preferred"
