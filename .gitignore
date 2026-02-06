@@ -4,6 +4,9 @@ output/*
 !output/*.pdf
 !output/*.md
 
+# Private data
+data/applications.yaml
+
 # LaTeX artifacts
 *.aux
 *.log
