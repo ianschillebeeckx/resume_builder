@@ -35,7 +35,7 @@ applications:
     date_applied: "2026-02-05"
     resume: "output/250205_enterprise_data_science.pdf"
     additional_info: ""
-    status: "applied"
+    status: "declined"
     notes: "Fully remote"
 
   - company: "Meta"
