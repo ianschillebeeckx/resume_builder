@@ -68,6 +68,7 @@ experience:
       - "Directed development and validation of two separate RNA-seq based transplant rejection prediction models: blood-based using SVM with RBF kernel and FFPE tissue-based using LASSO regression, both achieving production deployment"
       - "Pioneered first evidence demonstrating test impact on therapeutic decision-making through interventional study design"
       - "Expanded Data Science influence beyond R&D into cross-functional operations"
+      - "Oversaw enterprise BI portfolio of ~20 Tableau dashboards spanning Customer Ops, Sales, Manufacturing, and CLIA Lab; delivered operational and strategic reporting to cross-functional leadership"
       # From advisory overview
       - "Managed 14 people across 3 teams: bioinformatics, data science, statistics"
       - "$6M budget responsibility"
@@ -106,6 +107,7 @@ experience:
       - "Directly managed biomarker team and coordinated external lawyers, reagent vendors, manufacturers, and statistical/regulatory consultants"
       - "Managed kit box manufacture and Contract Manufacturing Organization to fulfill GMP-compliant IVD kit"
       - "Created Master Service Agreements with 6 different reagent vendors"
+      - "Built kit manufacturing supply chain from scratch: established MSAs with multiple reagent manufacturers, negotiated CMO contract, led tech transfer to CMO, and defined requirements for packaging (boxes and inserts)"
       - "Worked on design control system and FDA breakthrough device designation application"
       - "1st author on CAP analytical validation paper"
       - "Led biomarker discovery and validation in HNSCC, NSCLC, Bladder, Kidney, Melanoma Cancers"
@@ -400,6 +402,7 @@ skills:
     - "AWS SageMaker"
     - "Databricks"
     - "Streamlit"
+    - "Tableau"
     - "Docker"
     - "Scalable Cloud Pipeline Development"
   bioinformatics:
