@@ -1,0 +1,7 @@
+# Cover Letter
+
+Alumis Inc. - Senior Director, Business Insights and Analytics
+
+---
+
+My background sits at the intersection of commercial analytics, launch execution, and AI implementation in biotech—exactly what this role requires. At CareDx, I built commercial forecasting from scratch, reducing error from 6% to 0.9% and integrating directly with the CFO for quarterly and annual planning. I've led launch for two ML-based diagnostic products through regulatory approval to commercial revenue, including designing the Market Access strategy that achieved MolDX approval and Medicare reimbursement—navigating a path with limited precedent. On the insights side, I've conducted 30+ KOL and physician interviews that directly shaped clinical, marketing, and access strategy. More recently, I built an LLM agent that scores Target Product Profiles against rubric to inform portfolio prioritization, and deployed a RAG-based platform supporting Medical Affairs that produced 12 research manuscripts. I'm drawn to Alumis because supporting the launch of ESK-001 and building the analytics function to drive long-term commercial strategy is precisely the work I've been preparing for.
