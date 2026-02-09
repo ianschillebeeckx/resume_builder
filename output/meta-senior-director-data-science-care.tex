@@ -1,0 +1,190 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[margin=0.4in]{geometry}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins are set by geometry package above
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ian Schillebeeckx} \\ \vspace{1pt}
+    \small 636.667.7425 $|$ \href{mailto:ianschillebeeckx@gmail.com}{\underline{ianschillebeeckx@gmail.com}} $|$
+    \href{https://linkedin.com/in/ianschillebeeckx}{\underline{linkedin.com/in/ianschillebeeckx}} $|$
+    \href{https://github.com/ianschillebeeckx}{\underline{github.com/ianschillebeeckx}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Washington University in St. Louis}{St. Louis, MO}
+      {PhD, Computer Science (Computer Vision) -- Fastest graduation in department history}{2012 -- 2016}
+    \resumeSubheading
+      {Saint Louis University}{St. Louis, MO}
+      {\parbox[t]{3.5in}{Honors BS, Computer Science \\ Honors BS, Applied Mathematics}}{2007 -- 2011}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {VP of Enterprise Data Science and AI}{January 2025 -- Present}
+      {CareDx, Inc.}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Pitched and secured \$1M for RAG-based knowledge platform (Oracle) deployed company-wide; built agentic LLM for automated research manuscript generation (12 publications); built agentic LLM scoring product proposals against rubrics to inform 5-year roadmap}
+        \resumeItem{Drove enterprise AI transformation to 92\% Copilot adoption, saving 8\% of total employee hours annually; authored and secured executive approval for company-wide AI Use Policy}
+        \resumeItem{Directed development of predictive churn system covering \$270M in customer revenue; replaced reactive 6-month-lag detection with forward-looking model enabling proactive retention interventions}
+        \resumeItem{Established company's first Data Science function outside R\&D; became go-to analytical partner to CEO, CFO, and COO for business strategy across Commercial, Operations, Finance, and Billing}
+        \resumeItem{Built forecasting capability from scratch ($\sim$75\% of revenue), reducing error from 6\% to 0.9\%; deployed executive dashboard with automated revalidation integrated into quarterly/annual planning}
+        \resumeItem{Drove 10\% revenue increase through end-to-end analytics: experiment design, feature engineering, predictive modeling, causal inference, and pre-post controlled analysis}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {VP of Data Science}{January 2024 -- January 2025}
+      {CareDx, Inc.}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Led Data Science organization (14 people, \$6M budget) spanning multiple functional teams; reported to C-suite with Board of Directors participation; provided mentorship and career development}
+        \resumeItem{Oversaw BI portfolio of $\sim$20 Tableau dashboards spanning Customer Ops, Sales, Manufacturing, and Operations; delivered operational and strategic reporting to cross-functional leadership}
+        \resumeItem{Directed development of LSTM-based sequential model to predict customer outcomes from longitudinal data ($\sim$1200 accounts, $\sim$5000 interactions), outperforming traditional approaches; presented at international conference (top 10\%)}
+        \resumeItem{Directed development and validation of two production ML models (SVM, LASSO) deployed at scale}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Head of Product and Data Science}{December 2017 -- January 2024}
+      {Cofactor Genomics}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Led end-to-end launch of 2 ML-based products; owned product strategy, ML development, validation, and go-to-market execution}
+        \resumeItem{Defined multi-year roadmaps and company-wide OKRs; designed and monitored KPIs for ML model and product performance across the organization}
+        \resumeItem{Architected scalable data infrastructure: ML model repository, training data platform (100s GBs), and AWS Batch pipeline (+200\% throughput, -25\% cost)}
+        \resumeItem{Designed and executed prespecified A/B test ($\sim$500 users, 12+ cohorts) using CMH, Fisher Exact, and McNemar tests; achieved production deployment enabling commercial launch}
+        \resumeItem{First author on Nature ML paper (2nd most downloaded in 2022) and 3 AI patents}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PUBLICATIONS-----------
+\section{Selected Publications \& Patents}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{3 Artificial Intelligence Patents} -- Methods for prediction, state determination, and data processing using AI \\
+     \vspace{2pt}
+     \textbf{ML-based Prediction Model} -- \emph{Nature Scientific Reports, 2022 (2nd most downloaded)} \\
+     \vspace{2pt}
+     \textbf{4 Computer Vision Publications} -- \emph{CVPR, ECCV, ICCP, 3DV (2014-2016)}
+    }}
+ \end{itemize}
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{AI/ML}{: LLM/RAG Applications, Agentic AI, Predictive Modeling (LSTM, SVM, Gradient Boosting), Causal Inference, Experimentation} \\
+     \textbf{Platforms}{: Databricks, Tableau, Streamlit, AWS (Batch, SageMaker), Docker} \\
+     \textbf{Data Infrastructure}{: ML Pipelines, Model Repositories, Training Data Platforms, SQL} \\
+     \textbf{Languages}{: Python, R, SQL} \\
+     \textbf{Leadership}{: Team Building, Mentorship, OKRs, Executive Communication, Cross-Functional Collaboration, Change Management}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
