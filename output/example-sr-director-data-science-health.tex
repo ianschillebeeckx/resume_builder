@@ -1,0 +1,200 @@
+%-------------------------
+% Resume in Latex
+% Author : Ian Schillebeeckx
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[margin=0.4in]{geometry}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins are set by geometry package above
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ian Schillebeeckx} \\ \vspace{1pt}
+    \small
+    \href{https://linkedin.com/in/ianschillebeeckx}{\underline{linkedin.com/in/ianschillebeeckx}} $|$
+    \href{https://github.com/ianschillebeeckx}{\underline{github.com/ianschillebeeckx}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Washington University in St. Louis}{St. Louis, MO}
+      {PhD, Computer Science (Machine Learning) -- Fastest graduation in department history}{2012 -- 2016}
+    \resumeSubheading
+      {Saint Louis University}{St. Louis, MO}
+      {\parbox[t]{3.5in}{Honors BS, Computer Science \\ Honors BS, Applied Mathematics}}{2007 -- 2011}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Sr. Director of Enterprise Data Science and AI}{January 2025 -- Present}
+      {CareDx, Inc. (Transplant Diagnostics)}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Established company's first data science function from zero, defining the rigorous analytical frameworks that measured clinical and commercial impact; served as primary quantitative consultant to CEO, CFO, and COO, translating complex statistical findings into compelling strategic narratives that influenced enterprise-level investment decisions}
+        \resumeItem{Defined and directed causal inference research methodology: built causal models (DAGs, causal random forests) quantifying the marginal impact of operational interventions on clinical and revenue outcomes; established technical ``source of truth'' through controlled pre-post validation with measurable business impact (10\% revenue increase)}
+        \resumeItem{Architected multi-year research roadmap: built forecasting capability from scratch ($\sim$75\% of revenue) with custom time series optimization reducing error from 6\% to 0.9\%; scaled from manual analysis to automated production system with self-service interface, monitoring, and 90-day revalidation}
+        \resumeItem{Built predictive clinical risk identification system covering \$270M revenue: novel piecewise linear + dynamic programming approach for forward-looking prediction; deployed automated anomaly detection enabling proactive intervention on at-risk accounts across all US transplant clinics}
+        \resumeItem{Drove AI transformation: deployed GenAI RAG application company-wide (\$1M investment); built agentic paper generation application producing 12 research manuscripts (2 submitted to journals); pioneered agentic workflows improving team productivity 50\%; authored enterprise Responsible AI policy}
+        \resumeItem{Led company-wide AI adoption to 92\% ($\sim$750 employees), saving 8\% of total hours annually; coached $\sim$20 data science practitioners through regular training sessions on rigorous methodology}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Sr. Director of Data Science}{January 2024 -- January 2025}
+      {CareDx, Inc.}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Led Data Science organization (14 people, \$6M budget) spanning Bioinformatics, Statistics, and Data Science; hired, mentored, and developed senior individual contributors into technical leaders; fostered culture of scientific rigor and continuous learning}
+        \resumeItem{Directed development of LSTM deep learning model for sequential clinical prediction from longitudinal patient data ($\sim$1200 patients, $\sim$5000 time points), outperforming Kalman Filters, HMMs, and logistic regression; presented as oral abstract at international transplant conference (top 10\% of submissions)}
+        \resumeItem{Directed two production ML models (SVM, LASSO) deployed in regulated clinical environment with automated regression testing, model monitoring, and CI/CD; wrote regulatory filings (CLIA, NY-state)}
+        \resumeItem{Pioneered first evidence demonstrating test impact on therapeutic decision-making through interventional study design; expanded DS influence into cross-functional operations through causal observational studies}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Head of Product and Data Science}{December 2017 -- January 2024}
+      {Cofactor Genomics (Oncology Diagnostics)}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Owned end-to-end delivery of 2 production ML models in CAP/CLIA regulated environment: defined research frameworks, led biomarker discovery across multiple cancer types, designed clinical and analytical performance metrics, deployed scalable cloud architecture with automated model monitoring}
+        \resumeItem{Designed and executed 3 pre-specified clinical validation studies across 12+ sites ($\sim$500 subjects): statistical power analysis, prespecified hypotheses, rigorous analysis achieving Medicare reimbursement approval}
+        \resumeItem{Led multidisciplinary team of 10; defined multi-year research and product roadmaps; translated complex clinical findings into strategic narratives for investors, partners, and key opinion leaders through 30+ physician interviews}
+        \resumeItem{First author on Nature ML paper (2nd most downloaded in 2022); authored 3 AI patents (2 granted); led multi-center publication (PREDAPT study, PMC 2024)}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CEO \& Founder}{May 2017 -- August 2020}
+      {Where4Care (Healthcare Technology Startup)}{St. Louis, MO}
+      \resumeItemListStart
+        \resumeItem{Built healthcare product from zero in startup environment: designed patient matching algorithm, HIPAA-compliant tech stack (Python/Django); validated through 200-patient clinical study; scaled from manual research to automated product}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CEO / Entrepreneur in Residence}{June 2014 -- May 2017}
+      {Sling Health (Healthcare Startup Incubator)}{St. Louis, MO}
+      \resumeItemListStart
+        \resumeItem{Co-founded innovation accelerator; mentored 50+ healthcare technology projects from problem definition through launch; scaled to 130+ participants; drove 200\% revenue growth over 2 years}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PUBLICATIONS & PATENTS-----------
+\section{Selected Publications \& Patents}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{3 Artificial Intelligence Patents} (2 granted) -- Methods for prediction, classification, and data processing using ML/AI \\
+     \vspace{2pt}
+     \textbf{ML-based Biomarker} -- \emph{Nature Scientific Reports, 2022} (2nd most downloaded paper that year) \\
+     \vspace{2pt}
+     \textbf{12 Peer-Reviewed Publications} -- Clinical analytics, applied ML, causal methods \emph{(CVPR, ECCV, Nature, J. Mol. Dx, PMC)}
+    }}
+ \end{itemize}
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Clinical \& Causal Methods}{: Causal Inference (DAGs, Causal Forests), Clinical Risk Identification, Interventional \& Observational Study Design, Statistical Power Analysis, A/B Testing, Hypothesis Testing, Regulatory Filings (CLIA, CAP)} \\
+     \textbf{ML \& AI}{: Supervised/Unsupervised Learning, Deep Learning (LSTM), Predictive Modeling (Forecasting, Risk Prediction, Classification, Regression), GenAI (LLM/RAG), Agentic AI, Production ML (SageMaker, CI/CD, Monitoring)} \\
+     \textbf{Languages \& Platform}{: Python (expert), SQL (expert), R, AWS (SageMaker, Batch), Databricks, Tableau, Streamlit, Docker, Git} \\
+     \textbf{Leadership}{: 0-to-1 Data Science Builder (up to 14 reports, \$6M budget), Executive Influence \& Narrative Building, Clinical Research Leadership, Peer-Reviewed Publishing, Mentoring Senior ICs into Leaders}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}

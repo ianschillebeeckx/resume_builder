@@ -1,0 +1,199 @@
+%-------------------------
+% Resume in Latex
+% Author : Ian Schillebeeckx
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[margin=0.4in]{geometry}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins are set by geometry package above
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ian Schillebeeckx} \\ \vspace{1pt}
+    \small
+    \href{https://linkedin.com/in/ianschillebeeckx}{\underline{linkedin.com/in/ianschillebeeckx}} $|$
+    \href{https://github.com/ianschillebeeckx}{\underline{github.com/ianschillebeeckx}}
+\end{center}
+
+\vspace{-2pt}
+\small{Data science leader turned AI-native IC. With agentic tools, the line between managing humans and AI agents has blurred---delegating experimental design, evaluating results, and iterating on analyses feels the same whether through Slack or a terminal. Using Codex agents, I personally matched the output of the other five members of my team. Effective managers are the new super ICs.}
+\vspace{-4pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Washington University in St. Louis}{St. Louis, MO}
+      {PhD, Computer Science (Machine Learning) -- Fastest graduation in department history}{2012 -- 2016}
+    \resumeSubheading
+      {Saint Louis University}{St. Louis, MO}
+      {\parbox[t]{3.5in}{Honors BS, Computer Science \\ Honors BS, Applied Mathematics}}{2007 -- 2011}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Director of Enterprise Data Science and AI}{January 2025 -- Present}
+      {CareDx, Inc. (Medical Diagnostics, $\sim$750 employees)}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Built company's first data science function outside R\&D: embedded with Sales, Operations, and Finance as trusted analytical partner to CEO, CFO, and COO; proactively surfaced insights and opportunities driving customer engagement, retention, and revenue growth}
+        \resumeItem{Ran incrementality and causal inference studies to measure efficacy of business interventions: applied causal DAGs, causal random forests, linear regression, difference-in-differences, and propensity matching to quantify marginal impact of sales processes on revenue; translated complex findings into actionable recommendations driving 10\% revenue increase ($\sim$\$25M)}
+        \resumeItem{Built forecasting system covering $\sim$75\% of revenue: benchmarked ARIMA, Prophet, and custom objective functions, reducing forecast error from 6\% to 0.9\%; designed Databricks ETL pipelines for model training and inference; deployed self-service dashboards with automated monitoring enabling stakeholders to self-serve routine data and insights}
+        \resumeItem{Built predictive churn model covering \$270M revenue: novel piecewise linear changepoint detection + dynamic programming approach replacing 6-month-lag reactive detection with forward-looking predictions; Databricks ETL pipeline with automated anomaly detection triggering alerts on data refresh; customer segmentation insights drove proactive engagement strategies across territories}
+        \resumeItem{Built tools for AI-driven productivity: designed agentic system generating personalized next-best-action recommendations per customer territory; built custom CLI tools (database access, SQL generation, schema introspection) enabling self-serve data workflows; improved practitioner productivity 50\%}
+        \resumeItem{Shipped 3 LLM applications: enterprise RAG app (\$1M investment) for self-service knowledge retrieval; ProductLLM scoring Target Product Profiles against rubric on market potential and technical feasibility; PaperLLM generating original research manuscripts (12 produced, 2 submitted to journals)}
+        \resumeItem{Drove company-wide Copilot adoption to 92\% ($\sim$750 employees), saving 8\% of total hours annually; authored enterprise AI governance policy}
+        \resumeItem{AI-native practitioner: built custom Codex tool stack with specialized database access, SQL generation, and schema introspection tools for data science team; drove adoption across broader 20-person Data and AI group (Statistics, Data Engineering, Bioinformatics, Data Science) through executive sponsorship and regular peer training sessions}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Director of Data Science}{January 2024 -- January 2025}
+      {CareDx, Inc.}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Led multidisciplinary data organization (14 people, \$6M budget) spanning Bioinformatics, Statistics, and Data Science; established key metrics and measurement frameworks; fostered data-driven culture of experimentation and continuous learning}
+        \resumeItem{Directed production ML models (LSTM, SVM, LASSO) with hands-on technical depth: end-to-end from development through deployment, monitoring, and governance; set standards for statistical rigor across the organization}
+        \resumeItem{Oversaw enterprise analytics portfolio of $\sim$20 Tableau dashboards; built self-service analytics enabling cross-functional teams to derive insights independently; drove data quality, governance, and metric consistency}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Head of Product and Data Science}{December 2017 -- January 2024}
+      {Cofactor Genomics (Oncology Diagnostics)}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Owned end-to-end delivery of 2 production ML models (classification, regression): feature engineering from high-dimensional data, model optimization via bootstrap cross-validation, scalable cloud deployment with automated regression testing, CI/CD, and model monitoring}
+        \resumeItem{Architected data platform from scratch: ML model repository (SageMaker), versioned training data (100s GBs), cloud pipelines (AWS Batch, +200\% throughput, -25\% cost), CI/CD (GitHub Actions)---self-served all underlying data and derived insights from them}
+        \resumeItem{Designed and executed experimentation program across 12+ sites ($\sim$500 subjects): prespecified hypotheses, statistical power analysis, rigorous measurement of intervention efficacy informing business strategy}
+        \resumeItem{Led multidisciplinary team of 10; defined product roadmaps and OKRs; partnered across Product, Engineering, and Commercial to translate complex problems into actionable analytical frameworks}
+        \resumeItem{First author on Nature ML paper (2nd most downloaded in 2022); authored 3 AI patents (2 granted)}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CEO \& Founder}{May 2017 -- August 2020}
+      {Where4Care (Technology Startup)}{St. Louis, MO}
+      \resumeItemListStart
+        \resumeItem{Built product from zero: designed matching algorithm, full tech stack (Python/Django), cloud infrastructure; validated through 200-user study; hands-on end-to-end from data architecture through production deployment}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PUBLICATIONS & PATENTS-----------
+\section{Selected Publications \& Patents}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{3 Artificial Intelligence Patents} (2 granted) -- Methods for prediction, classification, and data processing using ML/AI \\
+     \vspace{2pt}
+     \textbf{ML-based Prediction Model} -- \emph{Nature Scientific Reports, 2022} (2nd most downloaded paper that year) \\
+     \vspace{2pt}
+     \textbf{12 Peer-Reviewed Publications} -- Applied ML, deep learning, experimentation \emph{(CVPR, ECCV, Nature, ICCP, 3DV)}
+    }}
+ \end{itemize}
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Causal Inference \& Experimentation}{: A/B Testing, Causal DAGs (Back-Door Criterion, Do-Calculus), Causal Forests, Difference-in-Differences, Propensity Matching, Synthetic Controls, Instrumental Variables, Regression Discontinuity, Incrementality Analysis, Statistical Power Analysis} \\
+     \textbf{ML \& Analytics}{: Classification (SVM, XGBoost), Regression (LASSO), Deep Learning (LSTM, PyTorch), Time Series Forecasting, Customer Lifecycle Analytics, Churn/Retention Modeling, Segmentation, Anomaly Detection, Model Monitoring} \\
+     \textbf{AI \& Tools}{: LLMs, RAG (Embeddings, Vector Search), Agentic AI (Custom Tool Building), Self-Service Analytics, Data Storytelling (Decks, Memos, Dashboards)} \\
+     \textbf{Languages \& Platform}{: Python (expert), SQL (expert), R, AWS (SageMaker, Batch), Databricks, Tableau, Streamlit, ETL/Data Pipelines, CI/CD, Docker, Git} \\
+     \textbf{GTM \& Business}{: Sales/GTM Analytics, Marketing Measurement, Customer Success, Revenue Optimization, Cross-Functional Partnership (Sales, Marketing, Finance, Product, Engineering, Support, Executive)}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}

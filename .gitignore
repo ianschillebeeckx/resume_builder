@@ -1,0 +1,29 @@
+# Output - only track anonymized examples
+output/*
+!output/example-*
+
+# Job descriptions - only track anonymized examples
+input/jobs/*
+!input/jobs/example-*
+
+# Source resumes (private)
+input/resumes/
+
+# Application tracking (private)
+data/applications.yaml
+
+# LaTeX artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# IDE
+.idea/
+*.swp
+.vscode/
+
+# OS
+.DS_Store

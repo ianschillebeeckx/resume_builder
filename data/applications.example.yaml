@@ -1,0 +1,53 @@
+# Job Applications Log (EXAMPLE - mock data for illustration)
+# Copy to applications.yaml and replace with real data
+# applications.yaml is gitignored for privacy
+#
+# Status values: applied, screen, interview, final_round, offer, accepted, rejected, withdrawn, ghosted
+#
+# status_history entries track each transition with date and optional notes
+
+applications:
+  - company: "Acme Corp"
+    role: "Director of Data Science"
+    source: "https://www.linkedin.com/jobs/view/1234567890/"
+    date_applied: "2026-01-15"
+    resume: "output/acme-director-data-science.pdf"
+    additional_info: ""
+    status: "interview"
+    status_history:
+      - status: "applied"
+        date: "2026-01-15"
+      - status: "screen"
+        date: "2026-01-22"
+        notes: "30-min recruiter call"
+      - status: "interview"
+        date: "2026-01-29"
+        notes: "Panel with VP Engineering and Head of Product"
+    notes: "Remote, SaaS platform, $250-300K"
+
+  - company: "Globex Industries"
+    role: "Sr. Director, AI and Analytics"
+    source: "https://www.linkedin.com/jobs/view/9876543210/"
+    date_applied: "2026-01-20"
+    resume: "output/globex-sr-director-ai-analytics.pdf"
+    additional_info: "input/jobs/globex-sr-director-ai-analytics-questions.md"
+    status: "rejected"
+    status_history:
+      - status: "applied"
+        date: "2026-01-20"
+      - status: "rejected"
+        date: "2026-02-03"
+        notes: "No additional conversations"
+    notes: "Pharma, hands-on technical role"
+
+  - company: "Initech"
+    role: "Head of Data Science"
+    source: "Direct posting"
+    date_applied: "2026-02-01"
+    resume: "output/initech-head-of-data-science.pdf"
+    additional_info: ""
+    status: "applied"
+    status_history:
+      - status: "applied"
+        date: "2026-02-01"
+    notes: "Series B startup, 0-to-1 data org"

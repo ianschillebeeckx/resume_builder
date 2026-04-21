@@ -1,0 +1,194 @@
+%-------------------------
+% Resume in Latex
+% Author : Ian Schillebeeckx
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[margin=0.4in]{geometry}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins are set by geometry package above
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ian Schillebeeckx} \\ \vspace{1pt}
+    \small
+    \href{https://linkedin.com/in/ianschillebeeckx}{\underline{linkedin.com/in/ianschillebeeckx}} $|$
+    \href{https://github.com/ianschillebeeckx}{\underline{github.com/ianschillebeeckx}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Washington University in St. Louis}{St. Louis, MO}
+      {PhD, Computer Science (Machine Learning) -- Fastest graduation in department history}{2012 -- 2016}
+    \resumeSubheading
+      {Saint Louis University}{St. Louis, MO}
+      {\parbox[t]{3.5in}{Honors BS, Computer Science \\ Honors BS, Applied Mathematics}}{2007 -- 2011}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Director of Enterprise Data Science and AI}{January 2025 -- Present}
+      {CareDx, Inc. (Diagnostics, $\sim$750 employees)}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Built company's first centralized DS function from zero; hired, developed, and retained high-performing team; partnered daily with Finance, Commercial, Operations, and Executive teams; served as quantitative thought leader for CEO, CFO, and COO, presenting board-level decisions backed by rigorous modeling}
+        \resumeItem{Owned revenue data layer: built forecasting system covering $\sim$75\% of revenue with custom time series optimization (ARIMA, Prophet, custom objectives) across 3/6/12/24-month horizons, reducing error from 6\% to 0.9\%; Databricks ETL pipelines for model training and inference; weekly C-suite reports, quarterly/annual CFO planning, Wall Street reporting}
+        \resumeItem{Led unit economics and causal analysis: applied causal DAGs, causal forests, DiD, and propensity matching to quantify marginal impact of sales and billing processes on revenue; translated findings into data-driven business rules driving 10\% revenue increase ($\sim$\$25M)}
+        \resumeItem{Directed churn/retention model covering \$270M revenue: novel piecewise linear changepoint detection + dynamic programming approach for transaction-like time series; automated anomaly detection with CI/CD; built LLM-based next-best-action agent generating personalized engagement recommendations per territory; customer segmentation insights drove proactive retention across at-risk accounts}
+        \resumeItem{Shipped 3 LLM applications in production: enterprise RAG app (\$1M investment) for self-service knowledge retrieval; ProductLLM scoring product profiles against market potential rubric; PaperLLM generating original research manuscripts}
+        \resumeItem{Operate AI-first: built custom Codex tool stack (database access, SQL generation, schema introspection) for data science team, automating recurring analytical pipelines and agentic workflows; taught Codex adoption across broader 20-person Data and AI group (Statistics, Data Engineering, Bioinformatics, Data Science) through executive sponsorship and regular peer training; drove company-wide Copilot adoption to 92\% ($\sim$750 employees), saving 8\% of total hours annually; personally matched output of 5-member team using agents}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Director of Data Science}{January 2024 -- January 2025}
+      {CareDx, Inc.}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Led multidisciplinary data organization (14 people, \$6M budget) spanning Bioinformatics, Statistics, and Data Science; managed managers; built multi-quarter roadmap with clear line-of-sight to business outcomes; set standards for modeling rigor, data quality, pipeline reliability, and production-readiness}
+        \resumeItem{Directed production ML models (LSTM, SVM, LASSO) end-to-end from development through deployment, monitoring, and governance in regulated environment}
+        \resumeItem{Oversaw enterprise analytics portfolio of $\sim$20 Tableau dashboards serving Sales, Finance, Operations, and Clinical; set metric standards and data governance across the organization}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Head of Product and Data Science}{December 2017 -- January 2024}
+      {Cofactor Genomics (Healthcare / Diagnostics Startup)}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{Owned end-to-end delivery of 2 production ML models: feature engineering, model optimization via bootstrap cross-validation, scalable cloud deployment with automated regression testing, CI/CD, and model monitoring}
+        \resumeItem{Architected data platform from scratch: model repository (SageMaker), versioned training data (100s GBs), cloud pipelines (AWS Batch, +200\% throughput, -25\% cost), CI/CD (GitHub Actions), reconciliation pipelines ensuring data quality and accuracy at scale}
+        \resumeItem{Designed and executed randomized controlled experimentation program across 12+ sites ($\sim$500 subjects): prespecified hypotheses, statistical power analysis, A/B testing methodology and cohort analysis informing pricing, positioning, and strategic decisions}
+        \resumeItem{Led multidisciplinary team of 10 in high-growth B2B startup; defined multi-quarter roadmaps and OKRs; partnered with Engineering, Product, and Commercial on pricing, packaging, and market strategy}
+        \resumeItem{First author on Nature ML paper (2nd most downloaded in 2022); authored 3 AI patents (2 granted)}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CEO \& Founder}{May 2017 -- August 2020}
+      {Where4Care (B2C Technology Startup)}{St. Louis, MO}
+      \resumeItemListStart
+        \resumeItem{Built self-serve product from zero: designed matching algorithm, full tech stack (Python/Django), cloud infrastructure; validated through 200-user study; hands-on end-to-end from product definition through production}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PUBLICATIONS & PATENTS-----------
+\section{Selected Publications \& Patents}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{3 Artificial Intelligence Patents} (2 granted) -- Methods for prediction, classification, and data processing using ML/AI \\
+     \vspace{2pt}
+     \textbf{ML-based Prediction Model} -- \emph{Nature Scientific Reports, 2022} (2nd most downloaded paper that year) \\
+     \vspace{2pt}
+     \textbf{12 Peer-Reviewed Publications} -- Applied ML, deep learning, experimentation \emph{(CVPR, ECCV, Nature, ICCP, 3DV)}
+    }}
+ \end{itemize}
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Revenue \& Unit Economics}{: Revenue Forecasting (ARIMA, Prophet, Custom), Cost/Billing Data Models, Churn/Retention, Upsell/Expansion, LTV, Pricing \& Packaging Optimization, Propensity Models, Reconciliation Pipelines, Exec Dashboards} \\
+     \textbf{Growth \& Experimentation}{: PLG Data Science, Activation/Conversion Analytics, Funnel Analysis, A/B Testing, Causal Inference (DAGs, Causal Forests, DiD, Propensity Matching, Synthetic Controls), Incrementality Analysis} \\
+     \textbf{AI \& Agentic Workflows}{: LLMs, RAG (Embeddings, Vector Search), Agentic Systems (Custom Tool Building, Codex), AI-Assisted Analytical Pipelines, Semantic Layer, AI-Native Team Operations} \\
+     \textbf{Languages \& Platform}{: Python, SQL, R, AWS (SageMaker, Batch), Databricks, ETL/Data Pipelines, Tableau, Streamlit, CI/CD (GitHub Actions), Docker, Git} \\
+     \textbf{Leadership}{: Building \& Running High-Performing DS Teams (up to 14 reports, \$6M budget), Managing Managers, Multi-Quarter Roadmap Execution, Executive Communication (C-Suite, Board), Cross-Functional Partnership (Finance, RevOps, Product, Engineering, Marketing)}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
