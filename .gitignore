@@ -12,6 +12,9 @@ input/resumes/
 # Application tracking (private)
 data/applications.yaml
 
+# Generated dashboards (private). Only the public version is tracked.
+analysis/application_flow.html
+
 # LaTeX artifacts
 *.aux
 *.log
@@ -19,6 +22,11 @@ data/applications.yaml
 *.synctex.gz
 *.fdb_latexmk
 *.fls
+
+# Python
+.venv/
+__pycache__/
+*.pyc
 
 # IDE
 .idea/

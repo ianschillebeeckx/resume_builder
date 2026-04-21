@@ -61,6 +61,7 @@ experience:
       - "Causal inference toolkit: difference-in-differences, RCTs, regression discontinuity design, instrumental variables, propensity score matching, synthetic controls, causal DAGs, back-door criterion, do-calculus"
       - "Prototyped AI Sales Assistant: agentic system that monitored canonical sales metrics per territory, generated personalized next-best-action recommendations, and delivered automated email/messaging notifications to individual Sales Reps"
       - "AI-native practitioner: built custom Codex tool stack with specialized database access, SQL generation, and schema introspection tools for data science team; drove adoption across broader 20-person Data and AI group (Statistics, Data Engineering, Bioinformatics, Data Science) through executive sponsorship and regular peer training sessions"
+      - "Validated RAG and agentic performance rigorously before production rollout: evaluated RAG on retrieval precision, answer fidelity, and hallucination rate; benchmarked LLM-based scoring applications against expert human rubrics; measured agentic applications on task completion and output quality"
     tags: [llm, ai-agents, codex, claude-code, training, change-management, developer-tools, productivity, forecasting, causal-inference, predictive-modeling, machine-learning, leadership, data-science, rag, rcm, sales-assistant, next-best-action]
 
   - company: "CareDx, Inc."
