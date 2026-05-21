@@ -92,6 +92,20 @@ experience:
       - "Pitched and led $2M automated literature review project (vector search and LLM)"
       - "Contributed to GenAI company policy"
 
+  - company: "Outis LLC"
+    company_context: "Independent Consulting"
+    title: "Founder"
+    dates: "July 2023 - Present"
+    location: "San Francisco, California, United States"
+    bullets:
+      - "Independent data science and statistics consulting for molecular diagnostic LDT and IVD companies"
+      - "LDT strategy: advised on regulatory pathway, evidence generation, and commercialization planning for laboratory developed tests"
+      - "Clinical Validity and Clinical Utility study design: defined primary endpoints, statistical methods, and study populations to support reimbursement and adoption claims"
+      - "Statistical powering and analysis: sample size calculations, prespecified analysis plans, and primary/secondary endpoint analysis"
+      - "Biomarker discovery: feature selection, model optimization, and validation strategy for novel diagnostic biomarkers"
+      - "Clients: Endpoint Health, Genece Health"
+    tags: [consulting, data-science, statistics, ldt, ivd, clinical-validity, clinical-utility, biomarker-discovery, regulatory-strategy]
+
   - company: "Cofactor Genomics"
     company_context: "Oncology Diagnostics"
     title: "Vice President of Product"
@@ -196,7 +210,7 @@ experience:
       - "Bootstrapped startup with 2 customers"
       - "Designed and ran clinical study in urgent care"
       - "SMS, Django, HIPAA compliant tech stack"
-      - "Finite State Machine Backend"
+      - "Finite state machine backend orchestrating SMS-based health questionnaire flow: tracked question order and user answers through stages (demographics, general health questions, symptom-specific branching)"
       # From other resumes
       - "Led team of 3 founders"
       - "Implemented and validated full HIPAA-compliant cloud tech stack"
