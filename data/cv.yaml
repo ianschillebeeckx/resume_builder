@@ -42,7 +42,7 @@ experience:
       - "Drove 10% revenue increase through end-to-end ML workflow: observational studies, feature engineering, model development, causal inference (Causal DAG/RF), and pre-post controlled analysis"
       - "Revenue Optimization: Led initiative increasing payment rates by ~10% through predictive modeling, causal inference (DAGs, causal random forests), and data-driven business rules"
       - "Strategic Product Planning: Built LLM agent scoring Target Product Profiles (TPPs) against rubric on market potential and technical feasibility, directly informing company's 5-year product roadmap"
-      - "Forecasting Excellence: Built unit volume forecasting capability from scratch (~75% of revenue), reducing error from 6% to 0.9% across 3/6/12/24-month horizons through custom time series optimization. Built ETL pipelines supporting model training and inference. Deployed Streamlit dashboard for stakeholder access with automated 90-day revalidation. Delivered weekly C-suite reports and integrated forecasts with CFO into quarterly/annual planning. Directly forecasted product volumes, indirectly YoY growth."
+      - "Forecasting Excellence: Built unit volume forecasting capability from scratch (~75% of revenue), reducing error from 6% to 0.9% across 3/6/12/24-month horizons through custom time series optimization. Built ETL pipelines supporting model training and inference. Deployed Streamlit dashboard for stakeholder access with automated 90-day revalidation. Delivered weekly C-suite reports and integrated forecasts with CFO into quarterly/annual planning and Wall Street reporting. Directly forecasted product volumes, indirectly YoY growth."
       - "AI Transformation of Company: Drove company-wide AI transformation to 92% Copilot adoption (~750 employees), saving 8% of total hours annually; pioneered Codex data science workflows improving team productivity 50%"
       - "Pitched and secured $1M for automated literature review RAG application; deployed to entire company for knowledge discovery"
       - "Oversaw development of self-service paper writing LLM app, producing 12 research manuscripts with 2 submitted to journals"
@@ -91,6 +91,7 @@ experience:
       # From 2024_vp_ai resume
       - "Pitched and led $2M automated literature review project (vector search and LLM)"
       - "Contributed to GenAI company policy"
+      - "Directed BERT-based sentiment and theme analysis of company-wide employee benefits survey for HR leadership; team member built the model under direction; synthesis informed HR decision-making and drove changes to the benefits package"
 
   - company: "Outis LLC"
     company_context: "Independent Consulting"
